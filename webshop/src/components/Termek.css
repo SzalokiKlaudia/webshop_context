@@ -1,0 +1,60 @@
+
+.kivalaszt{
+   
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Teljes box s */
+    transition: box-shadow 0.3s ease; /* Átmenet a hover állapothoz */
+    flex: 1 1 300px; 
+    max-height: fit-content; 
+    max-width: 300px; 
+    
+}
+
+.btn{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Teljes box s */
+    transition: box-shadow 0.3s ease; /* Átmenet a hover állapothoz */
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.btn-torol{
+    /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 
+    transition: box-shadow 0.3s ease; /* Átmenet a hover állapothoz */
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+
+}
+
+.btn:hover{
+    box-shadow: 0 3px 14px #5fc7ec; /* Teljes box shadow */
+    transition: box-shadow 0.3s ease; /* Átmenet a hover állapothoz */
+    font-weight: 700;
+    
+
+}
+
+.btn-torol:hover{
+    box-shadow: 0 3px 14px #5fc7ec; /* Teljes box shadow */
+    transition: box-shadow 0.3s ease; /* Átmenet a hover állapothoz */
+    font-weight: 700;
+
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Teljes box shadow */
+    transition: box-shadow 0.3s ease;
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.4rem;
+
+}
+

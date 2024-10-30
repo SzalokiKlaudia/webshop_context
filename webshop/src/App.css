@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.nav-link:hover{
+  font-weight: 700; 
+}
+
+#cart-icon{
+  position: absolute; /*ez nagyon fontos a láthatóság miatt*/
+  top: 10px; /*pozícionálni kell*/
+  right: 10px;
+  margin: 1rem 2.5rem 0 0;
+  font-size: 1.5rem;
+  /* width: 1.9rem; */
+  cursor: pointer;
+  z-index: 2;
+}
+
+#cart-icon:hover{
+  color: #5fc7ec;
+  transition: color 0.6s ease;
+
+}
+
+
+.custom{
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Alsó box shadow */
+  border: 1px solid transparent;
+
+ 
+}
+
+.aside{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgb(250, 250, 250);
+  color: black;
+  width: 60%;
+  padding: 3.8rem 1rem;
+  transition: transform 750ms ease-in-out, visibility 0s 350ms; /*a megjelenítésért felel meg, kicsit lelassítottam*/
+  transform: translateX(100%);/*itt elrejtettük*/
+  z-index: 1;/*fontos hogy az ikon felül maradjon így ő az index 2-őt kapta meg így layerezünk*/
+ display: none;/*abszolút ne jelenjen meg*/
+   
+
+}
+
+.aside.active{
+  display: block;/*hogy megjelenjen ez kötelező*/
+  transform: translateX(0); /*it tszépen megjelenik ha aktív*/
+  box-shadow: inset 0 4px 20px rgba(0, 0, 0, 0.2); /* Belső shadow */
+  border-radius: 0.4rem;
+  
+}
+
+.menu{
+  display: grid;
+  grid-template-columns: repeat(25% 25% 25%); 
+
+}
+
+.galeria{
+  justify-content: center;
+}
+
+
+

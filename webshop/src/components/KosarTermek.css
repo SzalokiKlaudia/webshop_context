@@ -1,0 +1,43 @@
+.kosarT{
+    width: 3rem;
+}
+
+.wrapper-szamlalo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 2rem;
+    justify-content: center;
+}
+
+input{
+    min-width: 1rem;
+}
+
+label{
+    margin: 0.5rem;
+}
+
+.fa-trash{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.fa-trash:hover{
+    color: #5fc7ec;
+    transition: color 0.6s ease;
+  
+  }
+
+.input{
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+  
+    input{
+        width: 5rem;
+    }
+}
